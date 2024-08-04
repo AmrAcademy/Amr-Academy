@@ -22,9 +22,9 @@ body {
     padding-top: 100px; 
     color: rgb(0, 0, 0);
     font-family: Katibeh;
+    position: relative;
 }
 
-/* Overlay for fading effect */
 .container::before {
     content: "";
     position: absolute;
@@ -32,15 +32,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(161, 155, 155, 0.566); /* Adjust opacity value (0.3 for example) */
-    z-index: -1; /* Ensure the overlay is behind other content */
+    background-color: rgba(161, 155, 155, 0.566);
+    z-index: -1;
 }
 
 /* Arabic content styles */
 .arabic-content {
     text-align: right;
     margin-bottom: 10px;
-    /* padding-right: 30px; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -48,8 +47,6 @@ body {
 ol {
     list-style: none;
     margin-bottom: 20px;
-    /* padding-right: 30px; */
-    /* padding-left: 30px; */
 }
 
 /* Button styles */
@@ -75,7 +72,6 @@ button:last-child {
 /* Header styles */
 .main-header {
     color: #000000;
-    /* padding: 10px 20px; */
     text-align: center;
     margin: 0;
     position: absolute; 
@@ -142,15 +138,15 @@ button:last-child {
 /* Individual divs */
 .left-div, .right-div {
     flex: 1;
-    min-width: 200px; /* Adjust based on your needs */
+    min-width: 200px;
 }
 
 /* Map container styles */
 .map-container {
     width: 100%;
     height: 100%;
-    max-width: 200px; /* Adjust based on your needs */
-    min-height: 50px; /* Adjust based on your needs */
+    max-width: 200px;
+    min-height: 50px;
     border: 0;
 }
 
@@ -159,7 +155,6 @@ main {
     padding-right: 20px;
     padding-bottom: 20px;
 }
-
 
 .navbar {
     display: flex;
@@ -174,7 +169,7 @@ main {
     list-style: none;
     padding: 0;
     font-size: large;
-    font-weight:600;
+    font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 30px;
 }
@@ -190,9 +185,48 @@ main {
     border-radius: 4px;
 }
 
-
-
 /* Responsive styles */
+@media (max-width: 1200px) {
+    .header-container {
+        font-size: medium;
+    }
+
+    #header1 {
+        font-size: x-large;
+    }
+
+    #header2 {
+        font-size: medium;
+    }
+
+    .navbar-menu a {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        font-size: large;
+    }
+
+    #header1 {
+        font-size: large;
+    }
+
+    #header2 {
+        font-size: medium;
+    }
+
+    .navbar-menu a {
+        font-size: medium;
+        padding: 5px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar-menu {
         flex-direction: column;
@@ -202,6 +236,7 @@ main {
 
     .navbar-menu a {
         padding: 10px;
+        font-size: medium;
     }
 
     .footer-flex {
@@ -216,5 +251,27 @@ main {
 
     .map-container {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: medium;
+    }
+
+    #header1 {
+        font-size: medium;
+    }
+
+    #header2 {
+        font-size: small;
+    }
+
+    button {
+        padding: 6px 12px;
+    }
+
+    .navbar-menu a {
+        font-size: small;
     }
 }
