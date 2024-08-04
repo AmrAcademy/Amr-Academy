@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    font-size: x-large;
+    font-size: 1rem; /* Use relative units */
     overflow-x: hidden;
 }
 
@@ -24,6 +24,7 @@ body {
     font-family: Katibeh;
     flex: 1;
     position: relative; /* Ensure relative positioning for overlay */
+    padding: 1rem; /* Add padding for spacing */
 }
 
 /* Arabic content styles */
@@ -37,8 +38,8 @@ body {
 ol {
     list-style: none;
     margin-bottom: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 2rem; /* Use relative units */
+    padding-left: 2rem; /* Use relative units */
 }
 
 /* Button styles */
@@ -75,20 +76,20 @@ button:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: medium;
+    font-size: 1rem; /* Use relative units */
     width: 100%;
 }
 
 /* Header styles */
 #header1 {
-    font-size: xx-large;
+    font-size: 2rem; /* Use relative units */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Link styles */
 .links {
     color: blue;
-    font-size: large;
+    font-size: 1rem; /* Use relative units */
 }
 
 .links:hover {
@@ -131,9 +132,7 @@ button:last-child {
 }
 
 main {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding: 1rem 2rem; /* Use relative units */
 }
 
 .navbar {
@@ -148,10 +147,10 @@ main {
     display: flex;
     list-style: none;
     padding: 0;
-    font-size: large;
+    font-size: 1rem; /* Use relative units */
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 30px;
+    margin-left: 2rem; /* Use relative units */
 }
 
 .navbar-menu a {
@@ -189,5 +188,23 @@ main {
 
     .map-container {
         max-width: 100%;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    #header1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-menu a {
+        padding: 15px;
+    }
+
+    #header1 {
+        font-size: 1.25rem; /* Further adjust font size for smaller screens */
     }
 }
