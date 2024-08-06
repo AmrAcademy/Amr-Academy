@@ -4,7 +4,7 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Body styles */
@@ -20,7 +20,7 @@ body {
     background-color: #f4f4f4;
     background: url('Images/image.png') no-repeat center center fixed;
     background-size: cover;
-    padding-top: 100px; 
+    /* padding-top: 100px;  */
     color: rgb(0, 0, 0);
     font-family: Katibeh;
     position: relative;
@@ -124,16 +124,17 @@ button:last-child {
 .main-footer {
     background-color: #c9b90c21;
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding-right: 15px;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0; 
-    font-size: medium;
+    font-size: x-large;
 }
 
-/* Flexbox container for footer */
 .footer-flex {
+    background-color: #c9b90c21;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
