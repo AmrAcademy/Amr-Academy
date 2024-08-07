@@ -49,7 +49,21 @@ ol {
     list-style: none;
     margin-bottom: 20px;
 }
-
+#link1{
+    padding-right:20% ;
+}
+#link2{
+    padding-right:9.5% ;
+}
+#link3{
+    padding-right:32.5% ;
+}
+#link4{
+    padding-right:32% ;
+}
+#link5{
+    padding-right:17.5% ;
+}
 /* Button styles */
 button {
     background-color: #d7c120;
@@ -194,6 +208,23 @@ main {
 }
 
 /* Responsive styles */
+@media(max-width:585){
+    #link1{
+        padding-right:30% ;
+    }
+    #link2{
+        padding-right:2.5% ;
+    }
+    #link3{
+        padding-right:32.5% ;
+    }
+    #link4{
+        padding-right:32% ;
+    }
+    #link5{
+        padding-right:17.5% ;
+    }
+}
 @media (max-width: 1200px) {
     .header-container {
         font-size: medium;
@@ -238,6 +269,21 @@ main {
     button {
         padding: 8px 16px;
     }
+    #link1{
+        padding-right:25% ;
+    }
+    #link2{
+        padding-right:9.5% ;
+    }
+    #link3{
+        padding-right:32.5% ;
+    }
+    #link4{
+        padding-right:32% ;
+    }
+    #link5{
+        padding-right:17.5% ;
+    }
 }
 
 @media (max-width: 768px) {
@@ -267,24 +313,56 @@ main {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1080px) {
     body {
-        font-size: medium;
+        font-size: x-large;
     }
 
     #header1 {
-        font-size: medium;
+        font-size: x-large;
     }
 
     #header2 {
-        font-size: small;
+        font-size: x-large;
     }
 
-    button {
-        padding: 6px 12px;
-    }
 
     .navbar-menu a {
-        font-size: small;
+        font-size: large;
+    }
+    #link1{
+        padding-right:20% ;
+    }
+    #link2{
+        padding-right:7.5% ;
+    }
+    #link3{
+        padding-right:35.5% ;
+    }
+    #link4{
+        padding-right:35% ;
+    }
+    #link5{
+        padding-right:17.5% ;
+    }
+    .main-footer {
+        background-color: #c9b90c21;
+        color: rgb(0, 0, 0);
+        /* padding-right: 15px; */
+        text-align: center;
+        width: 100%;
+        position: relative;
+        bottom: 0; 
+        font-size: x-large;
+        margin-top: 254px;
+    }
+    
+    .footer-flex {
+        background-color: #c9b90c21;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }
