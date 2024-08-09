@@ -169,7 +169,6 @@ button:last-child {
 
 
 /* Responsive styles */
-
 @media (max-width: 992px) {
     .header-container {
         font-size: 0.875rem; /* Adjust font size for smaller screens */
@@ -240,6 +239,8 @@ button:last-child {
         font-size: 1.5rem; /* Adjust font size for smaller screens */
     }
 }
+
+
 
 @media (max-width: 480px) {
     .navbar-menu a {
