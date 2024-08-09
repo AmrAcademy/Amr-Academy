@@ -303,7 +303,7 @@ main {
 
 /*///////////////////////////////////  DONE ///////////////////////////////////*/
 /*425px*/
-@media (max-width : 600px ){
+@media (min-width : 426px) and (max-width : 600px){
     body {
         font-size: 18px;
         overflow-x: scroll;
@@ -399,7 +399,7 @@ main {
 
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-@media (max-width: 768px) {
+@media (min-width: 601px) and (max-width : 768px){
     body {
         font-size: 20px;
         overflow-x: scroll;
@@ -496,7 +496,7 @@ main {
 
 
 /*//////////////////////////////////////// DONE //////////////////////////////////////*/
-@media (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -591,108 +591,8 @@ main {
 } 
 
 
-
-
-/*/////////////////////////////////////// DONE ////////////////////////////////////////*/
-@media (max-width: 1080px) {
-    body {
-        font-size: 25px;
-        overflow-x: scroll;
-    }
-
-    #header1 {
-        font-size: 30px;
-    }
-
-    .links{
-        font-size: 20px;
-    }
-    #header2 {
-        font-size:30px;
-    }
-
-
-    .main-footer {
-        background-color: #c9b90c21;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        width: 100%;
-        position: relative;
-        bottom: 0; 
-        font-size: 25px;
-        margin-top: 10.5%;
-    }
-    
-    .footer-flex {
-        background-color: #c9b90c21;
-        color: rgb(0, 0, 0);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .left-div, .right-div {
-        flex: 2;
-        padding-top: 10px;
-    }
-
-    .map-container {
-        max-width: 100%;
-        max-height: 100%;
-        width: 200px;
-        height: 100px;
-        border: 0;
-    }
-
-
-    main {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 20px;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        background-color: #c9b90c21;
-        height: 90px;
-    }
-
-    .navbar-menu {
-        display: flex;
-        list-style: none;
-        padding: 0;
-        font-weight: 600;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin-left: 30px;
-        padding-bottom: 5px;
-    }
-
-    .navbar-menu a {
-        color: #000000;
-        text-decoration: none;
-        padding: 10px 10px;
-        font-size: 20px;
-    }
-
-    .navbar-menu a:hover {
-        background-color: rgba(255, 241, 89, 0.304);
-        border-radius: 4px;
-    }
-
-    .navbar-logo a img{
-        height: 150px;
-        width: 200px;
-    }
-}
-
-
-
-
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-@media (max-width: 1024px) {
+@media (min-width: 993px) and (max-width: 1024px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -788,9 +688,105 @@ main {
 }
 
 
+/*/////////////////////////////////////// DONE ////////////////////////////////////////*/
+@media (min-width: 1025px) and (max-width: 1080px) {
+    body {
+        font-size: 25px;
+        overflow-x: scroll;
+    }
+
+    #header1 {
+        font-size: 30px;
+    }
+
+    .links{
+        font-size: 20px;
+    }
+    #header2 {
+        font-size:30px;
+    }
+
+
+    .main-footer {
+        background-color: #c9b90c21;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        width: 100%;
+        position: relative;
+        bottom: 0; 
+        font-size: 25px;
+        margin-top: 10.5%;
+    }
+    
+    .footer-flex {
+        background-color: #c9b90c21;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .left-div, .right-div {
+        flex: 2;
+        padding-top: 10px;
+    }
+
+    .map-container {
+        max-width: 100%;
+        max-height: 100%;
+        width: 200px;
+        height: 100px;
+        border: 0;
+    }
+
+
+    main {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #c9b90c21;
+        height: 90px;
+    }
+
+    .navbar-menu {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 30px;
+        padding-bottom: 5px;
+    }
+
+    .navbar-menu a {
+        color: #000000;
+        text-decoration: none;
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+    .navbar-menu a:hover {
+        background-color: rgba(255, 241, 89, 0.304);
+        border-radius: 4px;
+    }
+
+    .navbar-logo a img{
+        height: 150px;
+        width: 200px;
+    }
+}
+
+
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-@media (max-width: 1440px) {
+@media (min-width: 1081px) and (max-width: 1440px) {
     body {
         font-size: 40px;
         overflow-x: scroll;
@@ -888,7 +884,7 @@ main {
 
 
 /*/////////////////////////////////////// DONE ///////////////////////////////////*/
-@media (max-width: 2560px) {
+@media (min-width: 1441px) and (max-width: 2560px) {
     body {
         font-size: 70px;
         overflow-x: scroll;
