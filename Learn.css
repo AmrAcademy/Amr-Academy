@@ -12,7 +12,8 @@ body {
     flex-direction: column;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    font-size: 1rem; /* Use relative units */
+    /* font-size: 1rem;  */
+    font-size: x-large;
     overflow-x: hidden;
 }
 
@@ -31,6 +32,7 @@ body {
     text-align: right;
     margin-bottom: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 90px;
 }
 
 /* List styles */
@@ -75,27 +77,30 @@ button:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem; /* Use relative units */
+    /* font-size: 1rem; */
+    font-size: small;
+
     width: 100%;
 }
 
 /* Header styles */
 #header1 {
-    font-size: 2rem; /* Use relative units */
+    /* font-size: 2rem;  */
+    font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Link styles */
 .links {
     color: blue;
-    font-size: 1rem; /* Use relative units */
+    /* font-size: 1rem;  */
+    font-size: large;
 }
 
 .links:hover {
     color: #ffeb0f;
 }
 
-/* Footer styles */
 .main-footer {
     background-color: #c9b90c21;
     color: rgb(0, 0, 0);
@@ -103,10 +108,11 @@ button:last-child {
     text-align: center;
     margin-bottom: 0%;
     width: 100%;
-    flex-shrink: 0; /* Ensure footer doesn't shrink */
+    flex-shrink: 0; 
+    padding-top: 0px;
+
 }
 
-/* Flexbox container for footer */
 .footer-flex {
     display: flex;
     justify-content: space-between;
@@ -114,7 +120,6 @@ button:last-child {
     flex-wrap: wrap;
 }
 
-/* Individual divs */
 .left-div, .right-div {
     flex: 1;
     min-width: 200px;
@@ -132,10 +137,6 @@ button:last-child {
     border: 0;
 }
 
-/* main {
-    padding: 1rem 2rem; 
-} */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -148,10 +149,11 @@ button:last-child {
     display: flex;
     list-style: none;
     padding: 0;
-    font-size: 1rem; /* Use relative units */
+    /* font-size: 1rem;  */
+    font-size: large;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 2rem; /* Use relative units */
+    margin-left: 2rem; 
 }
 
 .navbar-menu a {
@@ -261,6 +263,9 @@ button:last-child {
         overflow-x: scroll;
     }
 
+    .navbar{
+        width: 100%;
+    }
     #header1 {
         font-size: 18px;
     }
@@ -272,6 +277,10 @@ button:last-child {
         font-size:20px;
     }
 
+    .arabic-content{
+        margin-right: 90px;
+
+    }
 
     .main-footer {
         background-color: #c9b90c21;
@@ -281,6 +290,8 @@ button:last-child {
         position: relative;
         bottom: 0; 
         font-size: 15px;
+        padding-top: 0px;
+
     }
     
     .footer-flex {
@@ -368,6 +379,10 @@ button:last-child {
         font-size:20px;
     }
 
+    .arabic-content{
+        margin-right: 90px;
+
+    }
 
     .main-footer {
         background-color: #c9b90c21;
@@ -378,6 +393,8 @@ button:last-child {
         bottom: 0; 
         font-size: 18px;
         margin-top: 15.4%;
+        padding-top: 0px;
+
     }
     
     .footer-flex {
@@ -465,6 +482,11 @@ button:last-child {
     }
 
 
+    .arabic-content{
+        margin-right: 90px;
+
+    }
+
     .main-footer {
         background-color: #c9b90c21;
         color: rgb(0, 0, 0);
@@ -474,6 +496,8 @@ button:last-child {
         bottom: 0; 
         font-size: 20px;
         margin-top: 2%;
+        padding-top: 0px;
+
     }
     
     .footer-flex {
@@ -561,6 +585,10 @@ button:last-child {
         font-size:30px;
     }
 
+    .arabic-content{
+        margin-right: 90px;
+
+    }
 
     .main-footer {
         background-color: #c9b90c21;
@@ -571,6 +599,8 @@ button:last-child {
         bottom: 0; 
         font-size: 25px;
         margin-top: 11.5%;
+        padding-top: 0px;
+
     }
     
     .footer-flex {
@@ -657,6 +687,11 @@ button:last-child {
         font-size:35px;
     }
 
+    .arabic-content{
+        margin-right: 90px;
+
+    }
+
 
     .main-footer {
         background-color: #c9b90c21;
@@ -667,6 +702,7 @@ button:last-child {
         bottom: 0; 
         font-size: 25px;
         margin-top: 10%;
+        padding-top: 0px;
     }
     
     .footer-flex {
@@ -754,6 +790,10 @@ button:last-child {
         font-size:30px;
     }
 
+    .arabic-content{
+        margin-right: 90px;
+
+    }
 
     .main-footer {
         background-color: #c9b90c21;
@@ -764,6 +804,7 @@ button:last-child {
         bottom: 0; 
         font-size: 25px;
         margin-top: 10.5%;
+        padding-top: 0px;
     }
     
     .footer-flex {
@@ -836,21 +877,23 @@ button:last-child {
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
 @media (min-width: 1081px) and (max-width: 1440px) {
     body {
-        font-size: 40px;
+        font-size: 30px;
         overflow-x: scroll;
     }
 
     #header1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
-    .links{
-        font-size: 30px;
-    }
+
     #header2 {
         font-size: 50px;
     }
 
+    .arabic-content{
+        margin-right: 90px;
+
+    }
 
     .main-footer {
         background-color: #c9b90c21;
@@ -861,6 +904,7 @@ button:last-child {
         bottom: 0; 
         font-size: 40px;
         margin-top: 2.5%;
+        padding-top: 0px;
 
     }
     
@@ -934,25 +978,26 @@ button:last-child {
 /*/////////////////////////////////////// DONE ///////////////////////////////////*/
 @media (min-width: 1441px) and (max-width: 2560px) {
     body {
-        font-size: 70px;
+        font-size: 40px;
         overflow-x: scroll;
     }
 
     #header1 {
-        font-size: 90px;
-    }
-
-    .links{
         font-size: 60px;
     }
+
     #header2 {
-        font-size: xx-large;
-    }
-
-
-    .navbar-menu a {
         font-size: large;
     }
+    .arabic-content{
+        margin-right: 90px;
+
+    }
+
+
+    /* .navbar-menu a {
+        font-size: 30px;
+    } */
 
     .main-footer {
         background-color: #c9b90c21;
@@ -961,8 +1006,9 @@ button:last-child {
         width: 100%;
         position: relative;
         bottom: 0; 
-        font-size: 65px;
+        font-size: 30px;
         margin-top: 5%;
+        padding-top: 0px;
     }
     
     .footer-flex {
@@ -982,8 +1028,8 @@ button:last-child {
 .map-container {
     max-width: 100%;
     max-height: 100%;
-    width: 550px;
-    height: 320px;
+    width: 250px;
+    height: 220px;
     border: 0;
 }
 
@@ -1006,18 +1052,18 @@ main {
     display: flex;
     list-style: none;
     padding: 0;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 30px;
-    size: 200px;
+    size: 150px;
 }
 
 .navbar-menu a {
     color: #000000;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .navbar-menu a:hover {
@@ -1026,7 +1072,7 @@ main {
 }
 
 .navbar-logo a img{
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
 }
 }
