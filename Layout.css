@@ -4,7 +4,8 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: auto;
 }
 
 
@@ -290,7 +291,7 @@ main {
 /* Responsive styles */
 /*/////////////////////////////////// DONE ////////////////////////////////////*/
 /*375px and 320px*/
-/* @media (max-width : 425px){
+@media (max-width : 425px){
     body {
         font-size: 15px;
         overflow-x: scroll;
@@ -381,12 +382,12 @@ main {
         height: 50px;
         width: 100px;
     }
-} */
+}
 
 
 /*///////////////////////////////////  DONE ///////////////////////////////////*/
 /*425px*/
-/* @media (min-width : 426px) and (max-width : 600px){
+@media (min-width : 426px) and (max-width : 600px){
     body {
         font-size: 18px;
         overflow-x: scroll;
@@ -478,11 +479,11 @@ main {
         height: 70px;
         width: 100px;
     }
-} */
+}
 
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-/* @media (min-width: 601px) and (max-width : 768px){
+@media (min-width: 601px) and (max-width : 768px){
     body {
         font-size: 20px;
         overflow-x: scroll;
@@ -574,12 +575,12 @@ main {
         height: 80px;
         width: 120px;
     }
-} */
+}
 
 
 
 /*//////////////////////////////////////// DONE //////////////////////////////////////*/
-/* @media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -671,11 +672,11 @@ main {
         height: 150px;
         width: 200px;
     }
-}  */
+} 
 
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-/* @media (min-width: 993px) and (max-width: 1024px) {
+@media (min-width: 993px) and (max-width: 1024px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -768,11 +769,11 @@ main {
         height: 80px;
         width: 120px;
     }
-} */
+}
 
 
 /*/////////////////////////////////////// DONE ////////////////////////////////////////*/
-/* @media (min-width: 1025px) and (max-width: 1080px) {
+@media (min-width: 1025px) and (max-width: 1080px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -864,12 +865,12 @@ main {
         height: 150px;
         width: 200px;
     }
-} */
+}
 
 
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-/* @media (min-width: 1081px) and (max-width: 1440px) {
+@media (min-width: 1081px) and (max-width: 1440px) {
     body {
         font-size: 40px;
         overflow-x: scroll;
@@ -962,12 +963,12 @@ main {
         height: 150px;
         width: 200px;
     }
-} */
+}
 
 
 
 /*/////////////////////////////////////// DONE ///////////////////////////////////*/
-/* @media (min-width: 1441px) and (max-width: 2560px) {
+@media (min-width: 1441px) and (max-width: 2560px) {
     body {
         font-size: 70px;
         overflow-x: scroll;
@@ -1064,4 +1065,4 @@ main {
     height: 300px;
     width: 500px;
 }
-} */
+}
