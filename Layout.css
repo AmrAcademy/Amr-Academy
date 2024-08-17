@@ -202,12 +202,95 @@ main {
 
 
 
+/* Responsive styles */
+@media (max-width: 992px) {
+    .header-container {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+    }
+
+    .navbar-menu {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+    }
+
+    .left-div, .right-div {
+        margin-right: 20px; /* Reduce margin */
+        flex: 100%; /* Full width */
+    }
+
+    .container {
+        padding: 1.5rem; /* Add padding */
+    }
+
+    #header1 {
+        font-size: 1.75rem; /* Adjust font size for smaller screens */
+    }
+
+    .footer-flex {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        font-size: 1rem; /* Use relative units */
+        overflow-x:hidden;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .navbar-menu a {
+        padding: 10px;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-div, .right-div {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .map-container {
+        max-width: 100%;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    #header1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .navbar-menu a {
+        padding: 15px;
+    }
+
+    #header1 {
+        font-size: 1.25rem; /* Further adjust font size for smaller screens */
+    }
+}
 
 
 /* Responsive styles */
 /*/////////////////////////////////// DONE ////////////////////////////////////*/
 /*375px and 320px*/
-@media (max-width : 425px){
+/* @media (max-width : 425px){
     body {
         font-size: 15px;
         overflow-x: scroll;
@@ -298,12 +381,12 @@ main {
         height: 50px;
         width: 100px;
     }
-}
+} */
 
 
 /*///////////////////////////////////  DONE ///////////////////////////////////*/
 /*425px*/
-@media (min-width : 426px) and (max-width : 600px){
+/* @media (min-width : 426px) and (max-width : 600px){
     body {
         font-size: 18px;
         overflow-x: scroll;
@@ -395,11 +478,11 @@ main {
         height: 70px;
         width: 100px;
     }
-}
+} */
 
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-@media (min-width: 601px) and (max-width : 768px){
+/* @media (min-width: 601px) and (max-width : 768px){
     body {
         font-size: 20px;
         overflow-x: scroll;
@@ -491,12 +574,12 @@ main {
         height: 80px;
         width: 120px;
     }
-}
+} */
 
 
 
 /*//////////////////////////////////////// DONE //////////////////////////////////////*/
-@media (min-width: 769px) and (max-width: 992px) {
+/* @media (min-width: 769px) and (max-width: 992px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -588,11 +671,11 @@ main {
         height: 150px;
         width: 200px;
     }
-} 
+}  */
 
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-@media (min-width: 993px) and (max-width: 1024px) {
+/* @media (min-width: 993px) and (max-width: 1024px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -685,11 +768,11 @@ main {
         height: 80px;
         width: 120px;
     }
-}
+} */
 
 
 /*/////////////////////////////////////// DONE ////////////////////////////////////////*/
-@media (min-width: 1025px) and (max-width: 1080px) {
+/* @media (min-width: 1025px) and (max-width: 1080px) {
     body {
         font-size: 25px;
         overflow-x: scroll;
@@ -781,12 +864,12 @@ main {
         height: 150px;
         width: 200px;
     }
-}
+} */
 
 
 
 /*////////////////////////////////////// DONE /////////////////////////////////////////*/
-@media (min-width: 1081px) and (max-width: 1440px) {
+/* @media (min-width: 1081px) and (max-width: 1440px) {
     body {
         font-size: 40px;
         overflow-x: scroll;
@@ -879,12 +962,12 @@ main {
         height: 150px;
         width: 200px;
     }
-}
+} */
 
 
 
 /*/////////////////////////////////////// DONE ///////////////////////////////////*/
-@media (min-width: 1441px) and (max-width: 2560px) {
+/* @media (min-width: 1441px) and (max-width: 2560px) {
     body {
         font-size: 70px;
         overflow-x: scroll;
@@ -981,4 +1064,4 @@ main {
     height: 300px;
     width: 500px;
 }
-}
+} */
